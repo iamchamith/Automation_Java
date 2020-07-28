@@ -1,0 +1,199 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "User Navigates to Mercury Registration Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 21242493000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on Mercury Home Page --\u003e Registration Page",
+            "match": {
+              "location": "RegisterUserStepDefs.setUp()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 6,
+        "name": "User Fills the Registration Form",
+        "description": "",
+        "id": "filling-the-registration-form-of-mercury-tours;user-fills-the-registration-form",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 174186500,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User Fills First Name as \"Nethmini\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nethmini",
+                  "offset": 26
+                }
+              ],
+              "location": "RegisterUserStepDefs.setFirstNameAs(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 136513600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User Fills Last Name as \"Senanayake\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Senanayake",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterUserStepDefs.LastNameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 141091800,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User Fills Phone Number as \"06 55 563 091\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "06 55 563 091",
+                  "offset": 28
+                }
+              ],
+              "location": "RegisterUserStepDefs.setPhoneNumberAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227194300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User Fills Email as \"david.p.91@malinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "david.p.91@malinator.com",
+                  "offset": 21
+                }
+              ],
+              "location": "RegisterUserStepDefs.setEmailAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 222040400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User Fills User Name as \"david.p.91@malinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "david.p.91@malinator.com",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterUserStepDefs.setUserNameAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 143228500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User Fills Passoword as \"Nethmini@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nethmini@123",
+                  "offset": 25
+                }
+              ],
+              "location": "RegisterUserStepDefs.setPassowordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 154594200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Fills Confrim Password as \"Nethmini@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Nethmini@123",
+                  "offset": 32
+                }
+              ],
+              "location": "RegisterUserStepDefs.setConfrimPasswordAs(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3410509500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User Clicks on Submit Button",
+            "match": {
+              "location": "RegisterUserStepDefs.clicksOnSubmitButton()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 302045400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Note should denote your User Name is \"david.p.91@malinator.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "david.p.91@malinator.com",
+                  "offset": 38
+                }
+              ],
+              "location": "RegisterUserStepDefs.noteShouldDenoteYourUserNameIs(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Filling the Registration Form of Mercury Tours",
+    "description": "",
+    "id": "filling-the-registration-form-of-mercury-tours",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/RegisterUser.feature"
+  }
+]
